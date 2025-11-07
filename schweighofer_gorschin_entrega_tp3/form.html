@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contacto</title> 
+</head>
+<body class="fondoform">
+   
+   <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="form.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header> 
+    
+    <div class="page-content-wrapper">
+        <MAIN class="main form-page">
+            <SECTION>
+                <div class="form-wrapper">
+                    <h1>Contáctanos</h1>
+                    <p class="form-description">Estamos listos para recibir tus consultas. ¡Escríbenos y nos pondremos en contacto pronto!</p>
+
+                    <form id="contact-form">
+                        
+                        <div class="input-group">
+                            <label for="contact-name">Nombre</label>
+                            <input type="text" placeholder="Nombre Completo" id="contact-name">
+                            <span id="name-error"></span> 
+                        </div>
+
+                        <div class="input-group">
+                            <label for="contact-phone">Teléfono</label>
+                            <input type="tel" placeholder="11 1234 5678" id="contact-phone" maxlength="10">
+                            <span id="phone-error"></span>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="contact-email">Email</label>
+                            <input type="email" placeholder="ejemplo@correo.com" id="contact-email">
+                            <span id="email-error"></span>
+                        </div>
+
+                        <div class="input-group message-group">
+                            <label for="contact-message">Mensaje</label>
+                            <textarea rows="4" placeholder="Escribe tu mensaje aquí..." id="contact-message"></textarea> 
+                            <span id="message-error"></span>
+                        </div>
+
+                        <button type="submit" class="cta-button3">Enviar Mensaje</button>
+                        <span id="submit-error"></span>
+                    </form>
+                </div>
+            </SECTION>
+
+        </MAIN>
+    
+
+
+        
+                <aside class="aside"><a href="index.html" class="cta-gallery-contact">Volver al inicio</a> </aside>
+
+        <footer>
+            <SECTION>
+                <p>©2025 Tobias Gorschin - Camila Jara Schweighofer | Sitio desarrollado para la asignatura Informática General (Cat. Tirigall) de la Universidad Nacional de las Artes</p>
+            </SECTION>
+        </footer>
+    </div>
+    
+    <script src="funciones.js"></script> 
+</body>
+</html>

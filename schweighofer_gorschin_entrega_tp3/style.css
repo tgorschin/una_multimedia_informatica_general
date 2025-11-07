@@ -1,0 +1,25 @@
+nav {
+  background-color: gray;
+  padding: 10px;
+  display:flex;
+  justify-content: center;
+}
+
+.nav-enlace {
+  display: inline-block;
+  padding: 10px 30px;          /* espacio entre letra y botones*/
+  margin: 10px;                /* espacio entre botones */
+  background-color: salmon;
+  text-decoration: none;
+  color: #fff;}
+
+  nav a:hover {
+  background-color: red;
+  color: white;
+}
+
+@media (max-width: 600px){ /* entre 0 y 600 px se va a modificar el css */
+    nav{
+        flex-direction: column;
+    }  
+}

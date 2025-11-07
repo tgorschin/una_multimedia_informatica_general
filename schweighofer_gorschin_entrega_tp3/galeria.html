@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilos.css"> 
+    <title>Galería de Proyectos</title>
+
+</head>
+<body class="fondogaleria">
+   
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="form.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header> 
+
+    <main class="gallery-page-main">
+        <h1>Licenciatura en Artes Multimediales</h1>
+        <p class="gallery-intro">Una selección de trabajos realizados en el primer año de la carrera.</p>
+
+        <article class="gallery-item">
+            <div class="work-content">
+                <h2>Artes Multimediales </h2>
+                <p class="project-tags">Cátedra Lacabanne</p>
+                <p>Implementación de un sistema de caos y orden basado en el arte de Vera Molnar, pionera en el arte regenerativo. El sketch utiliza una lógica probabilísticapara definir la dirección de cada segmento, generando una textura en constante reconfiguración. Es una visualización dinámica de la entropía a través de la densidad y la elección binaria.</p></p>
+            </div>
+            <figure class="work-media p5-media-container">
+                <div id="p5-canvas-container"></div>
+            </figure>
+            
+            <a href="https://editor.p5js.org/tobiasgorschin/sketches/1jtlpNG8N" class="cta-gallery" target="_blank">Ver Código Fuente (/editor.p5js.org)</a>
+        </article>
+
+        <article class="gallery-item">
+            <div class="work-content">
+                <h2>Proyecto Visual</h2>
+                <p class="project-tags">Catedra Serrano Gómez</p>
+                <p>Análisis a partir de un fotograma de una película. La textura 
+                    fue generada manualmente en blanco y negro, aplicando técnicas de 
+                    manipulación física (arrugado, dobleces) y grafito para simular la
+                     complejidad de la luz 
+                    y el deterioro, transformando la superficie del papel en la obra final.</p></p>
+            </div>
+            <figure class="work-media">
+                <img src="/images/tp textura.jpeg" alt="Visualización de Entropía Estática">
+            </figure>
+                    </article>
+        
+      <article class="gallery-item-3">
+            <div class="work-content">
+                <h2>Artes Multimediales</h2>
+                <p class="project-tags">Cátedra Lacabanne</p>
+                <p>Exploración del movimiento y el color a través de algoritmos de Perlin Noise y funciones trigonométricas. La obra genera un fondo de azulejos en constante mutación, 
+                    creando un efecto visual orgánico y dinámico. </p>
+            </div>
+            <figure class="work-media p5-media-container">
+                <div id="p5-canvas-container-3"></div> </figure>
+            
+            <a href="https://editor.p5js.org/tobiasgorschin/sketches/XrCyuh213" class="cta-gallery" target="_blank">Ver Código Fuente (/editor.p5js.org)</a>
+        </article>
+
+        <aside class="aside"><a href="index.html" class="cta-gallery">Volver al inicio</a> </aside>
+    </main>
+    <footer>
+        <SECTION>
+            <p>©2025 Tobias Gorschin - Camila Jara Schweighofer | Sitio desarrollado para la asignatura Informática General (Cat. Tirigall) de la Universidad Nacional de las Artes</p>
+        </SECTION>
+    </footer>
+    
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.min.js"></script>
+
+<script src="p5-sketch.js"></script>
+<script src="p5-sketch-3.js"></script>
+
+<script src="funciones.js"></script> 
+</html>
